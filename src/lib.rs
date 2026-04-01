@@ -25,7 +25,7 @@ pub fn new( mut args: impl Iterator<Item = String>,)->Result<Config,&'static str
             ignore_case,
         })
 }
-
+//test
 } 
 pub struct Config{
     pub query:String,
