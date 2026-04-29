@@ -1,4 +1,5 @@
 use std::fs;
+use std::io::prelude::*;
 use std::error::Error;
 use std::env;
 impl Config {
@@ -20,7 +21,7 @@ pub fn new( mut args: impl Iterator<Item = String>,)->Result<Config,&'static str
 
         Ok(Config {
             query,
-            filename,
+            file_path,
             ignore_case,
         })
 }

@@ -1,0 +1,1 @@
+C:\Users\angel\Codage\Rust\the_book\i_o_project\minigrep\target\debug\minigrep.exe: C:\Users\angel\Codage\Rust\the_book\i_o_project\minigrep\src\lib.rs C:\Users\angel\Codage\Rust\the_book\i_o_project\minigrep\src\main.rs
